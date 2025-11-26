@@ -1,0 +1,174 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #111;
+  color: #fff;
+  line-height: 1.6;
+}
+
+/* Cabeçalho 
+header {
+  background-color: #990000;
+  padding: 30px 20px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+}
+  */
+
+/* Cabeçalho */
+header {
+  background-image: url("tetra2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  padding: 70px 15px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+
+  /* Opcional: escurecer um pouco a imagem para melhorar a leitura do texto */
+  position: relative;
+}
+
+
+
+header h1 {
+  font-size: 2.8em;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2em;
+  color: #fff;
+}
+
+/* Conteúdo principal */
+main {
+  padding: 30px 20px;
+}
+
+/* Seções de jogos 
+.jogo {
+  background-color: #222;
+  border-left: 5px solid #ffcc00;
+  margin-bottom: 25px;
+  padding: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.jogo:hover {
+  transform: scale(1.02);
+}
+
+.jogo h2 {
+  font-size: 1.6em;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.jogo p {
+  margin: 5px 0;
+  font-size: 1em;
+}
+*/
+
+
+ .jogo {
+    background-color: #222;
+    border-left: 5px solid #ffcc00;
+    margin-bottom: 25px;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    position: relative;
+    color: #fff;
+  }
+  .jogo:hover {
+    transform: scale(1.02);
+  }
+  .jogo h2 {
+    font-size: 1.6em;
+    margin-bottom: 10px;
+  }
+  .jogo p {
+    margin: 5px 0;
+    font-size: 1em;
+  }
+  .btn-video {
+    display: none;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: #e50914;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .jogo:hover .btn-video {
+    display: inline-block;
+  }
+
+/* Frases de torcedor */
+blockquote {
+  margin-top: 15px;
+  font-style: italic;
+  color: #ccc;
+  border-left: 4px solid #990000;
+  padding-left: 15px;
+}
+
+/* Destaque para jogo especial (ex: final da Libertadores) */
+.destaque {
+  background-image: url(libert3.png);
+  border-left: 5px solid #ffcc00;
+  box-shadow: 0 0 10px #ffcc00;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Rodapé */
+footer {
+  background-color: #990000;
+  text-align: center;
+  padding: 15px;
+  font-weight: bold;
+  color: #ffffff;
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.5);
+}
+.footer-buttons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .footer-btn {
+    background-color: #ffffff;
+    color: #990000;
+    padding: 8px 14px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s ease;
+  }
+
+  .footer-btn:hover {
+    color: #fff;
+    background-color: #790000;
+  }
+
+  .div{
+    background-color: #fff;
+  }
